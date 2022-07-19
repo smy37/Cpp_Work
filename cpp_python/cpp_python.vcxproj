@@ -123,6 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="page_80.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
@@ -131,6 +132,7 @@
   <ItemGroup>
     <ClCompile Include="call_by.cpp" />
     <ClCompile Include="cwithp.cpp" />
+    <ClCompile Include="page_80.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

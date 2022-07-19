@@ -1,6 +1,6 @@
 #include <iostream>
 #include <stdio.h>
-
+#include "page_80.h"
 
 void call_by_ref_pointer(int *a, int *b)
 {
@@ -41,4 +41,12 @@ int main(void)
 	call_by_ref(t_ra, t_rb);
 
 	std::cout << t_a << ' ' << t_b << std::endl;
+	std::cout << "Page 80, ¹®Á¦ 2-1" << std::endl;
+	int num1 = 5;
+	int *ptr1 = &num1;
+	int num2 = 10;
+	int *ptr2 = &num2;
+	SwapRef::swap_by_ref(ptr1, ptr2);
+	std::cout << *ptr1 << " " << *ptr2 << std::endl;
+
 }

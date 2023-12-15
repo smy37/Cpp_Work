@@ -132,10 +132,22 @@
     <ClCompile Include="Hash_3.cpp" />
     <ClCompile Include="Hash_4.cpp" />
     <ClCompile Include="Hash_5.cpp" />
+    <ClCompile Include="Heap3.cpp" />
+    <ClCompile Include="Heap_1.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Sort_1.cpp" />
+    <ClCompile Include="Sort_2.cpp" />
+    <ClCompile Include="Sort_3.cpp" />
     <ClCompile Include="SQ_1.cpp" />
     <ClCompile Include="SQ_2.cpp" />
     <ClCompile Include="SQ_3.cpp" />
     <ClCompile Include="SQ_4.cpp" />
+    <ClCompile Include="SQ_5.cpp" />
+    <ClCompile Include="SQ_6.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sort_2.h" />
+    <ClInclude Include="Sort_3.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

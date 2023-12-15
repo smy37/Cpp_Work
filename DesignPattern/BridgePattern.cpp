@@ -49,28 +49,28 @@ void BoundaryType::execute() {
 
 
 
-int main() {
-
-	Renderer* implFill = new RenderFilled;
-	Type* type = new BeamType(implFill, {0, 10}, 1.8);
-	type->execute();
-	std::cout << std::endl;
-	
-
-	Renderer* implSharp = new RenderSharply;
-	type = new ColumnType(implSharp, { 0, 10 }, 1.8);
-	type->execute();
-	std::cout << std::endl;
-
-	Renderer* implTrans = new RenderTransparent;
-	type = new BoundaryType(implTrans, { 0, 10 }, 1.8, 125);
-	type->execute();
-	std::cout << std::endl;
-
-	Renderer* implDot = new RenderDotLine;
-	type = new LinkType(implDot, { 0, 10 }, 1.8, 999);
-	type->execute();
-	std::cout << std::endl;
-
-	return 0;
-}
+//int main() {
+////
+////	Renderer* implFill = new RenderFilled;
+////	Type* type = new BeamType(implFill, {0, 10}, 1.8);
+////	type->execute();
+////	std::cout << std::endl;
+////	
+////
+////	Renderer* implSharp = new RenderSharply;
+////	type = new ColumnType(implSharp, { 0, 10 }, 1.8);
+////	type->execute();
+////	std::cout << std::endl;
+////
+////	Renderer* implTrans = new RenderTransparent;
+////	type = new BoundaryType(implTrans, { 0, 10 }, 1.8, 125);
+////	type->execute();
+////	std::cout << std::endl;
+////
+////	Renderer* implDot = new RenderDotLine;
+////	type = new LinkType(implDot, { 0, 10 }, 1.8, 999);
+////	type->execute();
+////	std::cout << std::endl;
+////
+//	return 0;
+//}

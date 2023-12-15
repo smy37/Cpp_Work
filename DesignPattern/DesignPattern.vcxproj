@@ -129,11 +129,18 @@
   <ItemGroup>
     <ClCompile Include="BridgePattern.cpp" />
     <ClCompile Include="CommandPattern.cpp" />
+    <ClCompile Include="DecoratorPattern.cpp" />
     <ClCompile Include="FactoryMethod.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="SigletonPattern.cpp" />
+    <ClCompile Include="View.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BridgePattern.h" />
     <ClInclude Include="CommandPattern.h" />
+    <ClInclude Include="DecoratorPattern.h" />
+    <ClInclude Include="SigletonPattern.h" />
+    <ClInclude Include="View.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

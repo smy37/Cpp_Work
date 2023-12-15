@@ -24,12 +24,33 @@
     <ClCompile Include="FactoryMethod.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="SigletonPattern.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="View.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DecoratorPattern.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BridgePattern.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="CommandPattern.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SigletonPattern.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="View.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DecoratorPattern.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
